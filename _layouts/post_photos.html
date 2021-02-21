@@ -16,18 +16,18 @@ layout: default
   </header>
   
   <div class="post-content e-content" itemprop="articleBody">
-    <link rel="stylesheet" href="/assets/openlayers/v4.6.5-dist/ol.css" type="text/css">
+    <link rel="stylesheet" href="/blog/assets/openlayers/v4.6.5-dist/ol.css" type="text/css">
     {% for photo in site.static_files %}
       {% if photo.path contains page.photos and photo.path contains 'resized_25p_' %}
-        <img src="/assets/{{ page.photos }}/{{ photo.basename }}.jpg" alt="{{ photo.basename }}" id="{{ photo.basename }}" width="100%" />
+        <img src="/blog/assets/{{ page.photos }}/{{ photo.basename }}.jpg" alt="{{ photo.basename }}" id="{{ photo.basename }}" width="100%" />
         <!--<pre id="exif_{{ photo.basename }}"></pre>-->
         <div id="map_{{ photo.basename }}"></div>
         <div id="overlay_{{ photo.basename }}" style="background-color: red; width: 20px; height: 20px; border-radius: 10px;"></div>
       {% endif %}
     {% endfor %}
-    <script type="text/javascript" src="/assets/js/exif.js"></script>
-    <script type="text/javascript" src="/assets/openlayers/v4.6.5-dist/ol.js"></script>
-    <script type="text/javascript" src="/assets/js/functions.js"></script>
+    <script type="text/javascript" src="/blog/assets/js/exif.js"></script>
+    <script type="text/javascript" src="/blog/assets/openlayers/v4.6.5-dist/ol.js"></script>
+    <script type="text/javascript" src="/blog/assets/js/functions.js"></script>
     <script>
     "use strict";
     window.onload=getExif;
