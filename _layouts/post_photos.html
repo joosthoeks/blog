@@ -1,0 +1,83 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}</p>
+  </header>
+  
+  <div class="post-content e-content" itemprop="articleBody">
+    <link rel="stylesheet" href="/assets/openlayers/v4.6.5-dist/ol.css" type="text/css">
+    {% for photo in site.static_files %}
+      {% if photo.path contains page.photos and photo.path contains 'resized_25p_' %}
+        <img src="/assets/{{ page.photos }}/{{ photo.basename }}.jpg" alt="{{ photo.basename }}" id="{{ photo.basename }}" width="100%" />
+        <!--<pre id="exif_{{ photo.basename }}"></pre>-->
+        <div id="map_{{ photo.basename }}"></div>
+        <div id="overlay_{{ photo.basename }}" style="background-color: red; width: 20px; height: 20px; border-radius: 10px;"></div>
+      {% endif %}
+    {% endfor %}
+    <script type="text/javascript" src="/assets/js/exif.js"></script>
+    <script type="text/javascript" src="/assets/openlayers/v4.6.5-dist/ol.js"></script>
+    <script type="text/javascript" src="/assets/js/functions.js"></script>
+    <script>
+    "use strict";
+    window.onload=getExif;
+
+    function getExif() {
+    {% for photo in site.static_files %}
+      {% if photo.path contains page.photos and photo.path contains 'resized_25p_' %}
+        var img = document.getElementById("{{ photo.basename }}");
+        EXIF.getData(img, function() {
+            var allMetaData = EXIF.getAllTags(this);
+//            var allMetaDataSpan = document.getElementById("exif_{{ photo.basename }}");
+//            allMetaDataSpan.innerHTML = JSON.stringify(allMetaData, null, "\t");
+            var lat = 0;
+            var long = 0;
+            if (allMetaData.GPSLatitude) {
+                lat = ConvertDMSToDD(allMetaData.GPSLatitude[0], allMetaData.GPSLatitude[1], allMetaData.GPSLatitude[2], allMetaData.GPSLatitudeRef);
+                long = ConvertDMSToDD(allMetaData.GPSLongitude[0], allMetaData.GPSLongitude[1], allMetaData.GPSLongitude[2], allMetaData.GPSLongitudeRef);
+            }
+//            console.log(lat);
+//            console.log(long);
+            // make map:
+            var layer = new ol.layer.Tile({
+                source: new ol.source.OSM()
+            });
+            var center = ol.proj.transform([long, lat], 'EPSG:4326', 'EPSG:3857');
+            var overlay = new ol.Overlay({
+                position: center,
+                element: document.getElementById('overlay_{{ photo.basename }}')
+            });
+            var view = new ol.View({
+                center: center,
+                zoom: 17
+            });
+            var map = new ol.Map({
+                target: 'map_{{ photo.basename }}',
+                layers: [layer],
+                overlays: [overlay],
+                view: view
+            });
+        });
+      {% endif %}
+    {% endfor %}
+    }
+    </script>
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
