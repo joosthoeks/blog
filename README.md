@@ -6,6 +6,50 @@ title: Joost Hoeks Blog
 
 ## Walk
 
+-   [2023-10-28]
+
+    ### [Caminho Salema 2 Lagos]
+
+-   [2023-10-27]
+
+    ### [Caminho Sagres 2 Salema]
+
+-   [2023-10-26]
+
+    ### [Caminho Vila do Bispo 2 Sagres]
+
+-   [2023-10-25]
+
+    ### [Caminho Carrapateira 2 Vila do Bispo]
+
+-   [2023-10-24]
+
+    ### [Caminho Arrifana 2 Carrapateira]
+
+-   [2023-10-23]
+
+    ### [Caminho Aljezur 2 Arrifana]
+
+-   [2023-10-22]
+
+    ### [Caminho Odeceixe 2 Aljezur]
+
+-   [2023-10-21]
+
+    ### [Caminho Zambujeira do Mar 2 Odeceixe]
+
+-   [2023-10-20]
+
+    ### [Caminho Almograve 2 Zambujeira do Mar]
+
+-   [2023-10-19]
+
+    ### [Caminho Vila Nova de Milfontes 2 Almograve]
+
+-   [2023-10-18]
+
+    ### [Caminho Porto Covo 2 Vila Nova de Milfontes]
+
 -   [2023-05-29]
 
     ### [Caminho Areal 2 Santiago de Compostela]
