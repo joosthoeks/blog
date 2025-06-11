@@ -6,6 +6,8 @@ title: Joost Hoeks Blog
 
 ## 2024 Camino Primitivo
 
+[![2024 Camino Primitivo](<img/2024_Camino_Primitivo_1.jpg>)](<img/2024_Camino_Primitivo_1.jpg>)
+
 -   [2024-09-21]
 
     ### [Camino Lavacolla 2 Santiago de Compostela]
@@ -63,6 +65,9 @@ title: Joost Hoeks Blog
     ### [Camino Oviedo 2 Cornellana]
 
 ## 2024 Camino del Norte
+
+[![2024 Camino del Norte](<img/2024_Camino_del_Norte_1.jpg>)](<img/2024_Camino_del_Norte_1.jpg>)
+[![2024 Camino del Norte](<img/2024_Camino_del_Norte_2.jpg>)](<img/2024_Camino_del_Norte_2.jpg>)
 
 -   [2024-06-14]
 
@@ -252,6 +257,8 @@ title: Joost Hoeks Blog
 
 ## 2023 Camino Portugués por la Costa (Variante Espiritual)
 
+[![2023 Camino Portugués por la Costa (Variante Espiritual)](<img/2023_Camino_Portugués_por_la_Costa_(Variante_Espiritual)_1.jpg>)](<img/2023_Camino_Portugués_por_la_Costa_(Variante_Espiritual)_1.jpg>)
+
 -   [2023-05-29]
 
     ### [Camino Areal 2 Santiago de Compostela]
@@ -313,6 +320,8 @@ title: Joost Hoeks Blog
     ### [Camino Porto 2 Angeiras]
 
 ## 2023 Camino Francés (bike)
+
+[![2023 Camino Francés (bike)](<img/2023_Camino_Francés_(bike)_1.jpg>)](<img/2023_Camino_Francés_(bike)_1.jpg>)
 
 -   [2023-05-01]
 
@@ -530,6 +539,9 @@ title: Joost Hoeks Blog
 
 ## 2019 Camino Portugués Central por la Costa (Variante Espiritual)
 
+[![2019 Camino Portugués Central por la Costa (Variante Espiritual)](<img/2019_Camino_Portugués_Central_por_la_Costa_(Variante_Espiritual)_1.jpg>)](<img/2019_Camino_Portugués_Central_por_la_Costa_(Variante_Espiritual)_1.jpg>)
+[![2019 Camino Portugués Central por la Costa (Variante Espiritual)](<img/2019_Camino_Portugués_Central_por_la_Costa_(Variante_Espiritual)_2.jpg>)](<img/2019_Camino_Portugués_Central_por_la_Costa_(Variante_Espiritual)_2.jpg>)
+
 -   [2019-05-02]
 
     ### [Camino Padron 2 Santiago de Compostela]
@@ -654,6 +666,10 @@ title: Joost Hoeks Blog
 
 ## 2018 Caminho de Fátima
 
+[![2018 Caminho de Fátima](<img/2018_Caminho_de_Fátima_1.jpg>)](<img/2018_Caminho_de_Fátima_1.jpg>)
+[![2018 Caminho de Fátima](<img/2018_Caminho_de_Fátima_2.jpg>)](<img/2018_Caminho_de_Fátima_2.jpg>)
+[![2018 Caminho de Fátima](<img/2018_Caminho_de_Fátima_3.jpg>)](<img/2018_Caminho_de_Fátima_3.jpg>)
+
 -   [2018-10-15]
 
     ### [Camino Rabacal 2 Coimbra]
@@ -730,6 +746,9 @@ title: Joost Hoeks Blog
 
 ## 2018 Camino Portugués por el Interior
 
+[![2018 Camino Portugués por el Interior](<img/2018_Camino_Portugués_por_el_Interior_1.jpg>)](<img/2018_Camino_Portugués_por_el_Interior_1.jpg>)
+[![2018 Camino Portugués por el Interior](<img/2018_Camino_Portugués_por_el_Interior_2.jpg>)](<img/2018_Camino_Portugués_por_el_Interior_2.jpg>)
+
 -   [2018-02-18]
 
     ### [Camino Padron 2 Santiago de Compostela]
@@ -781,6 +800,9 @@ title: Joost Hoeks Blog
     ### [Camino Muxia 2 Fisterra]
 
 ## 2017 Camino Portugués por la Costa
+
+[![2017 Camino Portugués por la Costa](<img/2017_Camino_Portugués_por_la_Costa_1.jpg>)](<img/2017_Camino_Portugués_por_la_Costa_1.jpg>)
+[![2017 Camino Portugués por la Costa](<img/2017_Camino_Portugués_por_la_Costa_2.jpg>)](<img/2017_Camino_Portugués_por_la_Costa_2.jpg>)
 
 -   [2017-09-24]
 
@@ -847,6 +869,8 @@ title: Joost Hoeks Blog
     ### [Camino Porto 2 Lavra]
 
 ## 2017 Camino Portugués por la Costa (part)
+
+[![2017 Camino Portugués por la Costa (part)](<img/2017_Camino_Portugués_por_la_Costa_(part)_1.jpg>)](<img/2017_Camino_Portugués_por_la_Costa_(part)_1.jpg>)
 
 -   [2017-06-19]
 
